@@ -41,6 +41,7 @@ Resources:
       DeletionProtection: true
       VpcSecurityGroupIds:
         - !Ref VpcSecurityGroupId
+      StorageEncrypted: True
 
   BastionSecurityGroup:
     Type: AWS::EC2::SecurityGroup
